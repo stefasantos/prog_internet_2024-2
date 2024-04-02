@@ -1,0 +1,102 @@
+/*Color Hunt
+    feather*/
+
+    @font-face {
+        font-family: 'Raleway';
+        src: url(Raleway-VariableFont_wght.woff2) format('woff2');
+    }
+    @font-face {
+        font-family: 'FAMILY_NAME';
+        font-style: normal;
+        font-weight: 10px;
+        src: url(Raleway-VariableFont_wght.woff2) format('woff2');
+    }
+    body{
+        font-family: Raleway;
+        margin: 0;
+        padding: 10;
+        background-color: #637197;
+    }
+    body {
+        width: 600px;
+        margin: 0 auto;
+        background-color:#637197;
+        padding: 0 10px 10px 10px;
+        border: 5px solid black;
+    }
+    #site{
+        width: 800px;
+        margin: 0px auto;
+    } 
+    h1,p {
+        text-align: center;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+    }
+
+    header{
+        background-color: #637197;
+        color: WHITE ;
+        padding: 80px;
+        text-align: center;
+    }
+    nav{
+        text-align:center;
+    }
+    nav ul{
+        list-style-type: none;
+        padding: 10;
+    }
+    nav ul li{
+        display: inline;
+        margin: 50px;
+    }
+    
+    nav.b{
+        text-align: center ;
+    }
+    nav.b ul{
+        list-style-type: none;
+        padding: 0;
+    }
+    nav.b ul li{
+        display: inline;
+        margin: 0 20px;
+    }
+    nav.b ul li a{
+        color: black;
+        text-decoration: none;
+    }
+    nav.b ul li a svg{
+        color: black;
+    }
+    nav.b ul li a svg:hover{
+        color: #055521;
+    }
+    nav{
+        text-align: quite;
+    }
+    section{
+        padding: 20px;
+        margin: 80px;
+        color: black;
+        background-color: WHITE ;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgb(73, 90, 192);
+    }
+    section h2{
+        color: black;
+    }
+    section p{
+        color: black;
+    }
+    section nav li a{
+        color: black;
+    }
+    section form {
+        color: black;
+    }
+    
+    
