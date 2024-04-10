@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+body{
+    margin: 0;
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+    background-color: rgb(229, 182, 243);
+}
+h1{
+    text-align: center;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border: 5px solid rgb(189, 66, 183);
+}
+.login-form{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(211, 124, 238);
+    width: 100%;
+    border: 5px solid rgb(189, 66, 183);
+}
+p{
+    margin: 0;
+}
+.Cred{
+    text-align: center;
+    background-color: rgb(211, 124, 238);
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 89.4%;
+    border: 4px solid rgb(189, 66, 183);
+}
+input{
+    border-radius: 10px;
+    background-color: rgb(228, 174, 245);
+    margin-top: 5px;
+    outline: 0;
+    border: 0;
+    width: 100px;
+    height: 30px;
+}
+.face{
+    color: rgb(41, 14, 141);
+}
+.ins{
+    color: rgb(216, 31, 223);
+}
+.twi{
+    color: rgb(31, 162, 223);
+}
