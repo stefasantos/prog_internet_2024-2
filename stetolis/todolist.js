@@ -16,9 +16,9 @@ function addTask() {
     newTask.innerHTML = `
         <span class="task-text">${taskInput.value}</span>
         <div class="task-buttons">
-            <button onclick="editTask(this)">✏️ Editar</button>
-            <button onclick="cancelTask(this)">❌ Cancelar</button>
-            <button onclick="confirmTask(this)">✔️ Confirmar</button>
+            <button onclick="editTask(this)">✎  Editar</button>
+            <button onclick="cancelTask(this)"> ✘Cancelar</button>
+            <button onclick="confirmTask(this)">✔Confirmar</button>
         </div>
     `;
 
