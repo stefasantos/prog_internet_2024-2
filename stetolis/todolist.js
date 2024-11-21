@@ -9,7 +9,7 @@ function addTask() {
 
     // Verifica se o campo de entrada está vazio
     if (taskInput.value.trim() === "") {
-        alert("Por favor, insira uma atividade."); // Exibe um alerta
+        alert(""); // Exibe um alerta
         return; // Encerra a função sem adicionar a tarefa
     }
 
