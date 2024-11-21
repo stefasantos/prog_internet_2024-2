@@ -7,12 +7,6 @@ function addTask() {
     // Obtém o contêiner onde as tarefas serão exibidas
     const tasks = document.getElementById("tasks");
 
-    // Verifica se o campo de entrada está vazio
-    if (taskInput.value.trim() === "") {
-        alert(""); // Exibe um alerta
-        return; // Encerra a função sem adicionar a tarefa
-    }
-
     // Cria um elemento de div para a nova tarefa
     const newTask = document.createElement("div");
     // Adiciona classes com base na prioridade selecionada
