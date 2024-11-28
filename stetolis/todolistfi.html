@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List - IFPR</title>
+    <link rel="stylesheet" href="todolist.css">
+    <!-- Adicione o script do Firebase -->
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.17.2/firebase-database.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="IFPR.png" alt="Logo do IFPR">
+        </div>
+
+        <div class="task-list">
+            <h1>LISTA DE TAREFAS</h1>
+
+            <!-- Entrada de tarefas -->
+            <div class="task-input">
+                <input type="text" id="taskInput" placeholder="Atividade">
+                <select id="prioritySelect">
+                    <option value="alta">alta prioridade</option>
+                    <option value="media">média prioridade</option>
+                    <option value="baixa">baixa prioridade</option>
+                </select>
+                <button onclick="addTask()">adicionar</button>
+            </div>
+
+            <!-- Lista de tarefas -->
+            <div id="tasks"></div>
+        </div>
+
+        <!-- Rodapé -->
+        <div class="footer">
+            Nome do Aluno: Stefane<br>
+            <a href="https://github.com/stefasantos/prog_internet_2024-2/tree/main/stetolis" target="_blank">GitHub</a>
+        </div>
+    </div>
+
+    <!-- Script JS -->
+    <script type="module" src="todolistfi.js"></script>
+</body>
+</html>
