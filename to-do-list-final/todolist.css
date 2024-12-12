@@ -1,0 +1,105 @@
+
+body {
+    font-family: Arial, sans-serif; /* Define a fonte como Arial ou sans-serif como alternativa */
+    display: flex; /* Utiliza flexbox para posicionamento */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 100vh; /* A altura do corpo ocupa 100% da altura da janela de visualização */
+    margin: 0; /* Remove a margem padrão do body */
+    background-color: #8FBC8F; /* Cor de fundo verde clara */
+}
+
+/* Estilos para o container principal da aplicação */
+.container {
+    width: 600px; /* Define a largura do container */
+    padding: 20px; /* Espaçamento interno de 20px */
+    border: 1px solid #6b2f46; /* Borda com cor escura */
+    background-color: #556B2F; /* Cor de fundo verde mais escura */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+/* Estilos para a logo */
+.logo img {
+    width: 100px; /* Define a largura da logo */
+    height: auto; /* A altura é ajustada automaticamente para manter a proporção */
+    display: block; /* Remove o espaçamento embaixo da imagem */
+    margin-bottom: 20px; /* Espaçamento de 20px abaixo da logo */
+}
+
+/* Estilos para o título da lista de tarefas */
+.task-list h1 {
+    margin: 0; /* Remove a margem padrão */
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 50px; /* Espaçamento de 50px abaixo do título */
+}
+
+/* Estilos para a seção de input de tarefas */
+.task-input {
+    display: flex; /* Flexbox para organizar os elementos dentro dessa seção */
+    gap: 10px; /* Espaçamento de 10px entre os elementos */
+    margin-bottom: 50px; /* Espaçamento de 50px abaixo da seção de input */
+}
+
+/* Estilos para os campos de entrada (input, select, button) */
+.task-input input, .task-input select, .task-input button {
+    padding: 8px; /* Adiciona preenchimento interno */
+    font-size: 1em; /* Tamanho da fonte padrão */
+    border-radius: 4px; /* Bordas arredondadas */
+    border: 1px solid #8FBC8F; /* Borda de cor verde clara */
+}
+
+/* Estilos para o botão de adicionar tarefa */
+.task-input button {
+    cursor: pointer; /* Cursor em formato de mão para indicar interatividade */
+    background-color: #8FBC8F; /* Cor de fundo verde clara */
+    color: #fff; /* Cor do texto branca */
+    border: none; /* Remove a borda do botão */
+}
+
+/* Estilos para o botão ao passar o mouse (efeito hover) */
+.task-input button:hover {
+    background-color: #8FBC8F; /* Mantém a mesma cor ao passar o mouse */
+}
+
+/* Estilos para cada tarefa na lista */
+.task {
+    padding: 10px; /* Preenchimento interno da tarefa */
+    margin-bottom: 10px; /* Espaçamento de 10px abaixo de cada tarefa */
+    border: 1px solid #DB7093; /* Borda de cor rosa claro */
+    border-radius: 5px; /* Bordas arredondadas */
+    display: flex; /* Flexbox para organizar os itens da tarefa */
+    justify-content: space-between; /* Espaçamento entre os itens da tarefa */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+}
+
+
+
+.priority-alta { 
+    background-color: #d1a8a8;
+}
+.priority-media { 
+    background-color: #f3ecc1;
+}
+.priority-baixa { 
+    background-color: #c2cbe9;
+}
+
+/* Estilos para os botões de ação dentro de cada tarefa */
+.task-buttons button {
+    margin-left: 5px; /* Espaçamento de 5px à esquerda de cada botão */
+    cursor: pointer; /* Cursor em forma de mão para indicar interatividade */
+    font-size: 0.9em; /* Tamanho de fonte um pouco menor */
+    padding: 5px; /* Preenchimento interno de 5px */
+}
+
+/* Estilos para o botão ao passar o mouse (efeito hover) */
+.task-buttons button:hover {
+    background-color: #8FBC8F; /* Cor de fundo cinza claro ao passar o mouse */
+}
+
+/* Estilos para o rodapé */
+.footer {
+    margin-top: 20px; /* Espaçamento de 20px acima do rodapé */
+    text-align: center; /* Alinha o texto ao centro */
+    font-size: 0.9em; /* Tamanho de fonte menor */
+}

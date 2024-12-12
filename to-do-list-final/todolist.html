@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List - IFPR</title>
+    <link rel="stylesheet" href="todolist.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="logo">
+            <img src="IFPR.png" alt="Logo do IFPR">
+
+        </div>
+
+        <div class="task-list">
+            <h1>LISTA DE TAREFAS</h1>
+            
+            
+            <div class="task-input">
+                <input type="text" id="taskInput" placeholder="Atividade">
+                <select id="prioritySelect">
+                    <option value="alta">alta prioridade</option>
+                    <option value="media">média prioridade</option>
+                    <option value="baixa">baixa prioridade</option>
+                </select>
+                <button onclick="addTask()">adicionar</button>
+            </div>
+            
+            <div id="tasks"></div>
+
+    
+        <div class="footer">
+            Nome do Aluno: Stefane<br>
+            <a href="https://github.com/stefasantos/prog_internet_2024-2/tree/main/stetolis" target="_blank">GitHub</a>
+        </div>
+    </div>
+
+    <script type="module" src="todolist.js"></script>
+</body>
+</html>
+
+    
+</body>
+</html>
