@@ -28,4 +28,4 @@ const firebaseConfig = {
 - Firebase Firestore.
 
 ---
-Desenvolvido por Matheus Pedro Carvalho.
+Desenvolvido por Stefane.
